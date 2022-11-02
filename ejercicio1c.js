@@ -9,6 +9,3 @@ function button10() {
     }
 }
 button10();
-/*for (i=1;i<=10;i++) { 
-    document.write("<button class=btn" + i + ">boton de nivel " + i + "</button" + i + ">") 
-}*/
