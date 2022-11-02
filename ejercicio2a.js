@@ -20,3 +20,4 @@ for (let x = 0; x < array1.length; x++) {
     }
 }
 console.log(result);
+/* el array del resultado se muestra en la consola*/
