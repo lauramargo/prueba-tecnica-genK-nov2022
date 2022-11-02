@@ -24,5 +24,5 @@ function changeButton1000() {
     }
 }
 
-Button1000();
+button1000();
 changeButton1000();
