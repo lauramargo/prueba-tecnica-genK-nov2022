@@ -9,6 +9,14 @@ const array2 = [
     [8, 10, 8],
     [6, 4, 2],
 ];
-/* array1 valores (xy) y array2 valores (yx) multiplicarlos y meter los valores resultantes en un nuevo array result*/
+
 const result = [];
 
+
+for (let x = 0; x < array1.length; x++) {
+    for (let y = 0; y < array2.length; y++) {
+        const multiplicationArrays = array1[x][y] * array2[y][x];
+        result.push(multiplicationArrays);
+    }
+}
+console.log(result);
